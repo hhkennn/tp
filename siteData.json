@@ -3,15 +3,15 @@
   "pages": [
     {
       "src": "AboutUs.md",
-      "title": "About Us",
       "headings": {
+        "layout-default-md-title-and-quot-about-us-and-quot": "layout: default.md\ntitle: &quot;About Us&quot;",
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
-        "johnny-doe": "Johnny Doe",
-        "jean-doe": "Jean Doe",
-        "james-doe": "James Doe"
+        "tee-ming-shun": "TEE MING SHUN",
+        "hoong-ken": "Hoong Ken",
+        "twisha-mehta": "Twisha Mehta",
+        "chan-tze-yuon": "Chan Tze Yuon",
+        "kean-lai": "Kean Lai"
       },
       "headingKeywords": {}
     },
@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "doc-developer-guide": "Doc Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -51,6 +51,23 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "help-window": "Help window",
+        "optional-emergency-contacts": "Optional emergency contacts",
+        "visit-record-model": "Visit record model",
+        "duplicate-patient-identity-visit-dates-and-name-confirmation": "Duplicate patient identity, visit dates, and name confirmation",
+        "optional-date-of-birth": "Optional date of birth",
+        "optional-blood-type": "Optional blood type",
+        "optional-allergies": "Optional allergies",
+        "optional-alcohol-history": "Optional alcohol history",
+        "optional-smoking-status": "Optional smoking status",
+        "editing-patient-details": "Editing patient details",
+        "saving-and-displaying-visit-changes": "Saving and displaying visit changes",
+        "sorting-displayed-visits-by-date": "Sorting displayed visits by date",
+        "finding-patients-by-field": "Finding patients by field",
+        "scheduling-the-next-visit": "Scheduling the next visit",
+        "restoring-the-previous-visit": "Restoring the previous visit",
+        "follow-up-command-line-input-and-confirmation": "Follow-up command-line input and confirmation",
+        "command-history-navigation": "Command history navigation",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-dev-ops": "Documentation, logging, testing, dev-ops",
@@ -62,7 +79,30 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
+        "dates-of-birth": "Dates of birth",
+        "allergies": "Allergies",
+        "smoking-status": "Smoking status",
+        "alcohol-history": "Alcohol history",
+        "blood-types": "Blood types",
+        "emergency-contacts": "Emergency contacts",
+        "help-window-lifecycle": "Help window lifecycle",
+        "user-guide-actions": "User Guide actions",
+        "finding-patients": "Finding patients",
+        "sorting-visits-by-date": "Sorting visits by date",
+        "distinguishing-past-visits-in-the-patient-list": "Distinguishing past visits in the patient list",
+        "preventing-duplicate-visit-dates-and-times": "Preventing duplicate visit dates and times",
+        "loading-and-validating-previous-visit-dates": "Loading and validating previous visit dates",
+        "adding-patients-with-duplicate-names": "Adding patients with duplicate names",
+        "optional-alcohol-history-2": "Optional alcohol history",
+        "optional-smoking-status-2": "Optional smoking status",
+        "editing-patient-details-2": "Editing patient details",
+        "testing-the-next-command": "Testing the next command",
+        "testing-the-prev-command": "Testing the prev command",
+        "viewing-one-patient": "Viewing one patient",
+        "calendar-labels-for-current-visits": "Calendar labels for current visits",
+        "navigating-command-history": "Navigating command history",
+        "deleting-a-patient": "Deleting a patient",
+        "clearing-all-patient-records": "Clearing all patient records",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
@@ -79,7 +119,8 @@
       "src": "Logging.md",
       "title": "Logging guide",
       "headings": {
-        "logging-guide": "Logging guide"
+        "logging-guide": "Logging guide",
+        "patient-updates-and-save-failures": "Patient updates and save failures"
       },
       "headingKeywords": {}
     },
@@ -99,6 +140,8 @@
       "headings": {
         "testing-guide": "Testing guide",
         "running-tests": "Running tests",
+        "assertions": "Assertions",
+        "visit-record-verification": "Visit record verification",
         "types-of-tests": "Types of tests"
       },
       "headingKeywords": {}
@@ -107,15 +150,21 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "doc-user-guide": "Doc User Guide",
         "quick-start": "Quick start",
         "features": "Features",
+        "visit-records": "Visit records",
+        "navigating-command-history": "Navigating command history",
         "viewing-help-help": "Viewing help: help",
-        "adding-a-person-add": "Adding a person: add",
-        "listing-all-persons-list": "Listing all persons: list",
-        "editing-a-person-edit": "Editing a person: edit",
-        "locating-persons-by-name-find": "Locating persons by name: find",
-        "deleting-a-person-delete": "Deleting a person: delete",
+        "adding-a-patient-add": "Adding a patient: add",
+        "listing-all-patients-list": "Listing all patients: list",
+        "sorting-visits-by-date-sort-date-start-date": "Sorting visits by date: sort date [START_DATE]",
+        "viewing-a-patient-s-details-view": "Viewing a patient's details: view",
+        "editing-a-patient-edit": "Editing a patient: edit",
+        "scheduling-the-next-visit-next": "Scheduling the next visit: next",
+        "restoring-the-previous-visit-prev": "Restoring the previous visit: prev",
+        "locating-patients-find": "Locating patients: find",
+        "deleting-a-patient-delete": "Deleting a patient: delete",
         "clearing-all-entries-clear": "Clearing all entries: clear",
         "exiting-the-program-exit": "Exiting the program: exit",
         "saving-the-data": "Saving the data",
@@ -131,12 +180,14 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "doc": "Doc",
+        "documentation": "Documentation",
+        "acknowledgements": "Acknowledgements"
       },
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
+      "src": "team/tzeyuon.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
